@@ -1,0 +1,69 @@
+/* Colors and Fonts */
+body {
+	background: #E6E6E6
+}
+h1 {
+	color: #124559;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-weight: 700;
+}
+h2 {
+	color: #81D2C7;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-weight: 700;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	color: #81D2C7;
+}
+
+p,ul {
+	font-family: 'Quattrocento', serif;
+}
+
+/* Custom design with class */
+.container {
+	width: 800px;
+	margin: 40px auto;
+}
+@media (max-width: 720px) {
+	.container {
+		width: 600px;
+	}
+}
+@media (max-width: 540px) {
+	.container {
+		width: 400px;
+	}
+}
+.card-white {
+	background-color: white;
+	padding: 40px;
+	text-align: center;
+	border-radius: 5px;
+	margin: 20px 0px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+.img-circle {
+	border-radius: 50%;
+}
+.p-padding {
+	padding-top: 0px;
+}
+.btn-darkblue {
+	background-color: #124559;
+	border-radius: 4px;
+	padding: 10px;
+	color: white;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+.list-inline {
+	list-style: none;
+	margin-top: 40px;
+}
+.list-inline li {
+	display: inline;
+}
